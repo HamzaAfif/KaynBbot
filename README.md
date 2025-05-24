@@ -88,7 +88,7 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Contact
-For questions or support, contact the KaynBot Development Team at [your-email@example.com].
+For questions or support, contact the KaynBot Development Team at [ha.afif25@gmail.com].
 
 ---
 *Last Updated: May 24, 2025*
