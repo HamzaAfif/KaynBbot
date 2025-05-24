@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyFind Live Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="avatar">
+                    <img src="https://via.placeholder.com/50" alt="Assistant Avatar">
+                </div>
+                <div class="chat-info">
+                    <h3>EasyFind Assistant</h3>
+                    <p>Online</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-messages">
+            <div class="message user-message">
+                <div class="message-bubble">
+                    <p>Hello! I need help with my store.</p>
+                </div>
+            </div>
+
+            <div class="message assistant-message">
+                <div class="message-bubble">
+                    <p>Hi! Sure, I can help you with that. What would you like to do?</p>
+                </div>
+            </div>
+
+            <div class="message user-message">
+                <div class="message-bubble">
+                    <p>I want to add a new product.</p>
+                </div>
+            </div>
+
+            <div class="message assistant-message">
+                <div class="message-bubble">
+                    <p>Great! Let's get started. Please provide the product name and details.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" placeholder="Type your message..." id="chatInput">
+            <button type="submit" id="sendButton">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 8l7.89 3.26L3 14.5v-2.5L10.5 11 3 9.5V7z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 12h-2.26L9.8 7.8a1 1 0 00-1.8.4L7 12l1 1-2.26 2H21" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+</body>
+
+</html>

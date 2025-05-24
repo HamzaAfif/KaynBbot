@@ -1,0 +1,13 @@
+langchain== 0.3.1
+openai== 1.51.0
+SQLAlchemy== 2.0.35 
+langchain-openai == 0.2.1
+langchain-community == 0.3.1
+#SpeechRecognition==3.8.1 #for voice commands
+#pyttsx3==2.98 #for text-to-speech functionality
+#scikit-learn== 1.5.2  #for building machine learning models such as recommendation systems
+#Flask== 3.0.3
+#matplotlib == 3.9.2
+#apscheduler ==3.10.4 #for background job scheduling
+python-dotenv == 1.0.0
+#twilio == 7.17.0  #for sending notifications via SMS
